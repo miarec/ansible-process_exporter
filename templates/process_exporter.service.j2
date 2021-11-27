@@ -3,7 +3,6 @@
 [Unit]
 Description=Process Exporter for Prometheus
 After=network-online.target
-StartLimitInterval=0
 
 [Service]
 Type=simple
@@ -18,6 +17,7 @@ ExecStart=/usr/local/bin/process_exporter \
 SyslogIdentifier=process_exporter
 Restart=always
 RestartSec=1
+StartLimitInterval=0
 
 [Install]
 WantedBy=multi-user.target
