@@ -1,9 +1,9 @@
 # Ansible Role: process_exporter
 
-[![Build Status](https://travis-ci.com/cloudalchemy/ansible-process_exporter.svg?branch=master)](https://travis-ci.com/cloudalchemy/ansible-process_exporter)
+[![Build Status](https://github.com/miarec/ansible-process_exporter/actions/workflows/ci.yml/badge.svg)](https://github.com/miarec/ansible-process_exporter/actions?query=workflow%3Aci)
 [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
-[![Ansible Role](https://img.shields.io/badge/ansible%20role-cloudalchemy.process_exporter-blue.svg)](https://galaxy.ansible.com/cloudalchemy/process_exporter/)
-[![GitHub tag](https://img.shields.io/github/tag/cloudalchemy/ansible-process_exporter.svg)](https://github.com/cloudalchemy/ansible-process_exporter/tags)
+[![Ansible Role](https://img.shields.io/badge/ansible%20role-miarec.process_exporter-blue.svg)](https://galaxy.ansible.com/miarec/process_exporter/)
+[![GitHub tag](https://img.shields.io/github/tag/miarec/ansible-process_exporter.svg)](https://github.com/miarec/ansible-process_exporter/tags)
 
 ## Description
 
