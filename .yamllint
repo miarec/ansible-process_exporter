@@ -3,6 +3,7 @@ extends: default
 ignore: |
   .github/
   meta/
+  *-venv/
 
 rules:
   braces:
