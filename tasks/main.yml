@@ -37,3 +37,14 @@
     enabled: true
   tags:
     - process_exporter_run
+
+- name: Force all handlers to run
+  meta: flush_handlers
+
+- name: Ensure process_exporter service is running
+  service:
+    name: process_exporter
+    state: started
+  become: true
+  tags:
+    - process_exporter_run

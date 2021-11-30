@@ -74,18 +74,3 @@
     group: root
   notify: restart process_exporter
   when: not ansible_check_mode
-
-- name: Enable service
-  service: 
-    name: process_exporter
-    enabled: yes
-  become: yes
-
-- name: Force all handlers to run
-  meta: flush_handlers
-
-- name: Verify if the service is running
-  service: 
-    name: process_exporter
-    state: started
-  become: yes
