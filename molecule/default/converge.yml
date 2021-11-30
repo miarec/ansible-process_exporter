@@ -1,6 +1,8 @@
 ---
 - name: Converge
   hosts: all
+  vars:
+    process_exporter_collect_thread_metrics: false
   tasks:
     - name: Detect role name
       set_fact:

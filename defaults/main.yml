@@ -5,6 +5,12 @@ process_exporter_web_listen_address: "0.0.0.0:9256"
 
 process_exporter_config_dir: '/etc/process_exporter'
 
+# Since publishing thread metrics adds a lot of overhead,
+# change `process_exporter_collect_tread_metrics` to `false` to disable them
+# if necessary.
+# By default, it is enabled for backward compatibility.
+process_exporter_collect_thread_metrics: true
+
 # Process names
 # "raw" section is needed to avoid attempted interpretation
 # of process-exporter Template varables (like {{.Comm}})
